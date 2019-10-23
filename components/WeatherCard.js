@@ -18,6 +18,7 @@ class WeatherCard extends Component{
         return <View style={{flexDirection: 'row'}}>
             <View style={{alignItems: 'flex-end'}}>
                 <Text style={{fontSize: 45,color:"white"}}>{base}</Text>
+                <Text style={{fontSize: 45,color:"red"}}>{base}</Text>
             </View>
             <View style={{alignItems: 'flex-start'}}>
                 <Text style={{fontSize: 20,color:"white"}}>{exponent}</Text>
